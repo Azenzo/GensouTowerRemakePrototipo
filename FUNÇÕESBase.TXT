@@ -1,0 +1,33 @@
+Player - Usuário
+X Criar Player (IdDisc, Nome)
+//- Alterar Player (IdDisc, Nome)
+X Deletar Player (IdDisc)
+X (Des)ativar Player (IdDisc)
+- Ver Player (IdDisc)
+
+Temporada - Usuário
+- Criar Temporada (Nome)
+- Atualizar Temporada (IdTemp)
+- Desativar Temporada (IdTemp)
+- Reativar Temporada (IdTemp)
+- Deletar Temporada (IdTemp)
+- Checar Temporada (IdTemp)
+- Checar Celestial (IdTemp)
+- Alterar Celestial (IdTemp)
+
+Ranque - Usuário
+- Criar Ranque (IdPlayer, IdTemp)
+- Atualizar Ranque(IdPlayer, IdTemp)
+- Deletar Ranque(IdPlayer, IdTemp)
+--Se Celestial
+- Atualiza Vida()
+- Fica Celestial()
+- Vira Celestial()
+- Desvira Celestial()
+
+Partida - Usuário
+- Cria desafio(IDPlayer, IDPlayer)
+- Aceita desafio(IdPlayer)
+- Timeout Desafio()
+- Finaliza Partida(IdPlayer, IdPlayer, Ponto1, Ponto2)
+
